@@ -1,0 +1,6 @@
+# frontend
+/node_modules
+/package-lock.json
+/.next
+# client/.env.local
+client/*debug*

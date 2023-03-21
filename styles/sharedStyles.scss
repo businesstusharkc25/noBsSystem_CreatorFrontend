@@ -1,0 +1,32 @@
+.no_bs_creator_button_base_styles {
+  background-color: #232323;
+  border: 1px solid #868686;
+  border-radius: 6px;
+  transition: all ease-in-out 200ms;
+}
+
+.no_bs_creator_button_base_styles:hover {
+  background-color: #0a0a0a;
+}
+
+.no_bs_creator_button_secondary {
+  background: #292929;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.no_bs_creator_button_variant_0 {
+  background: #1c1b1b;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.no_bs_creator_button_variant_1 {
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.no_bs_creator_button_variant_danger {
+  background: #590000;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}

@@ -1,0 +1,36 @@
+// root side scroll bar styles
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1f1d1d;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4d4d4d;
+}
+
+.hide_scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.hide_scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.editor_container .ql-container {
+  min-height: 350px;
+}

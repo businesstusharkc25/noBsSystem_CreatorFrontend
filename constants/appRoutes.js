@@ -1,0 +1,10 @@
+export const memberShipRoute = "/memberships";
+export const contentRoute = "/content";
+export const createContentRoute = `${contentRoute}/create-content`;
+export const createBlogRoute = `${createContentRoute}/blog`;
+export const createPodcastRoute = `${createContentRoute}/podcast`;
+export const createVideoRoute = `${createContentRoute}/video`;
+export const createMembershipPlan = `${memberShipRoute}/add-membership`;
+export const updateContentRoute = `${contentRoute}/update-content`;
+export const editMembershipPlan = `${memberShipRoute}/update-membership`;
+export const addNewChannelRoute = `/add-channel`;

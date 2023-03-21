@@ -1,0 +1,21 @@
+.audio_progress_bar {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 1px;
+}
+
+.audio_progress_bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: #000000;
+  border-radius: 50%;
+}
+
+.audio_progress_bar::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  background: #000000;
+  border-radius: 50%;
+}
